@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="duck.png">
+    <title>Darlehensrechner</title>
+
+    <link rel="stylesheet" href="index.css">
+    <script type="text/javascript" src="index.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="felder">
+        <table id="tabelle1">
+            <tr>
+                <td>Darlehensbetrag: </td>
+                <td><input type="number" id="darlehensbetrag" value="500000"></td>
+                <td>€</td>
+            </tr>
+            <tr>
+                <td>Dauer: </td>
+                <td><input type="number" id="dauer" value="10"></td>
+                <td> Jahre</td>
+            </tr>
+            <tr>
+                <td>Zinssatz: </td>
+                <td><input type="number" id="zinssatz" value="2"></td>
+                <td>%</td>
+            </tr>
+            <tr>
+                <td>Monatliche Rate: </td>
+                <td><input type="number" id="monatliche_rate"></td>
+                <td>€</td>
+            </tr>
+            <tr>
+                <td>Zusätzliche Kosten: </td>
+                <td><input type="number" id="zusatzkosten"></td>
+                <td>€</td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;">
+                    <button id="berechnen_btn" onclick="berechnen()">Berechnen</button>
+                </td>
+            </tr>
+        </table>
+
+        <table id="extrawerte" class="extrawerte">
+        </table>
+
+    </div>
+    <div>
+        <table id="tilgungsplan" class="tilgungsplan">
+        </table>
+    </div>
+
+    <canvas id="tilgungsplan_chart" width="400" height="400"></canvas>
+        
+    
+</body>
+</html>
+

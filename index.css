@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+body{
+    background-color:rgb(37, 43, 43);
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    flex-direction: column;
+    color: azure;
+}
+
+.felder{
+  height: 40%;
+  width: 100%;
+}
+
+#tabelle1{
+  padding: 5vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#extrawerte{
+  padding: 5vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input{
+    width: 90%;
+    height: 80%;
+    font-size: 18px;
+    border-radius: 7px;
+}
+
+
+#berechnen_btn{
+    margin-top: 6vh;
+    width: 120%;
+    height: 60%;
+    font-size: 18px;
+    border-radius: 7px;
+    background-color:aquamarine;
+}
+
+.tilgungsplan{
+  height: 100px;
+  width: 100%;
+  font-size: 12px;
+  border-spacing: 5vh 0;
+}
+
+thead, tbody { display: block; }
+
+.tilgungsplan > tbody{
+  align-items: center;
+  height: 20vh;
+  width: 100%;
+  overflow-y: auto;    /* Trigger vertical scroll    */
+  overflow-x: hidden;  /* Hide the horizontal scroll */
+}
+
+.tilgungsplan > td {
+  padding: 5px;
+}
+
+#buttonfield{
+    background-color: rgb(48, 56, 56);
+    padding: 5vh;
+    justify-content: center;
+}
+
+#buttons{
+    height: 3vh;
+    width: 4vh;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+}
+
+#buttons1{
+    display: flex;
+    height: 3vh;
+    width: 4vh;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+#clock{
+    color: #fe8717;
+    font-size: 60px;
+    letter-spacing: 2px;
+}
+
+#date{
+    color: #fe8717;
+    font-size: 60px;
+    letter-spacing: 2px;
+}
+
+#result{
+    display: flex;
+    height: 3vh;
+    width: 4vh;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+}
