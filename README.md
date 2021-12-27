@@ -1,2 +1,5 @@
-# darlehenrechner
-Ein simpler Darlehenrechner basiert auf JavaScript
+# Darlehenrechner
+## Ein simpler Darlehensrechner basiert auf JavaScript
+
+### Features
+- 
